@@ -18,7 +18,7 @@ document.getElementById('calculator-form').addEventListener('submit', function(e
     const iframe = document.getElementById('result-iframe');
     const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
     
-    // Write the result into the iframe
+    // Write the result into the iframe as plain text
     iframeDoc.open();
     iframeDoc.write(result.toString());
     iframeDoc.close();
