@@ -54,13 +54,13 @@ button:hover {
 
 iframe {
     width: 100%;
-    height: 50px;
-    border: 1px solid #ddd;
+    height: 60px; /* Adjust height as needed */
+    border: none; /* Remove border */
     border-radius: 4px;
     margin-top: 20px;
     background-color: #fff;
-    padding: 10px;
     text-align: center;
-    line-height: 50px; /* Centers the text vertically */
-    font-size: 20px; /* Increases the text size */
+    line-height: 60px; /* Centers text vertically */
+    font-size: 24px; /* Adjust font size */
+    overflow: hidden; /* Hide overflow */
 }
